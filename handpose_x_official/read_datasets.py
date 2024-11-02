@@ -10,7 +10,7 @@ from hand_data_iter.datasets import plot_box,draw_bd_handpose
 import random
 
 if __name__ == "__main__":
-    path = "./handpose_x/handpose_datasets"
+    path = "./handpose_x_official/handpose_datasets"
 
     for f_ in os.listdir(path):
         if ".jpg" in f_:

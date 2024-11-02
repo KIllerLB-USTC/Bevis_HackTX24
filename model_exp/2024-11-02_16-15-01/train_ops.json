@@ -4,7 +4,7 @@
  "model": "ReXNetV1",
  "num_classes": 42,
  "GPUS": "0",
- "train_path": "C:\\\\Users\\\\jonat\\\\GitHub\\\\handpose_x",
+ "train_path": "C:\\\\Users\\\\jonat\\\\GitHub\\\\handpose_x_official",
  "pretrained": true,
  "fintune_model": "None",
  "loss_define": "wing_loss",

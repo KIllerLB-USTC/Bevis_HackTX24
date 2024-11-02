@@ -41,7 +41,7 @@ if __name__ == "__main__":
         help = 'num_classes') #  手部21关键点， (x,y)*2 = 42
     parser.add_argument('--GPUS', type=str, default = '0',
         help = 'GPUS') # GPU选择
-    parser.add_argument('--test_path', type=str, default = 'handpose_x/image/',
+    parser.add_argument('--test_path', type=str, default = 'handpose_x_official/image/',
         help = 'test_path') # 测试图片路径
     parser.add_argument('--img_size', type=tuple , default = (256,256),
         help = 'img_size') # 输入模型图片尺寸
